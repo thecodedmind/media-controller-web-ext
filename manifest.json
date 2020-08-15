@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Media Controller",
+	"description": "Media player controls",
+	"version": "0.0.1",
+	"icons": {
+		"64": "icons/icon.png"
+	},
+	"permissions": ["*://*.youtube.com/*", "tabs", "theme"],
+	"browser_action": {
+		"default_icon": {
+			"64": "icons/icon.png"
+		},
+		"default_popup": "browserAction/index.html",
+		"default_title": "Media Controller"
+	}
+}
